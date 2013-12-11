@@ -1,0 +1,407 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/user/emberworkspace/emberkit/sample-app',
+6 verbose install   [ 'express',
+6 verbose install     'lockfile',
+6 verbose install     'bower',
+6 verbose install     'grunt',
+6 verbose install     'grunt-cli',
+6 verbose install     'load-grunt-config',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-preprocess',
+6 verbose install     'grunt-es6-module-transpiler',
+6 verbose install     'grunt-concat-sourcemap',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-rev',
+6 verbose install     'grunt-ember-templates',
+6 verbose install     'grunt-karma',
+6 verbose install     'karma',
+6 verbose install     'karma-qunit',
+6 verbose install     'karma-coverage',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'express-namespace',
+6 verbose install     'request' ] ]
+7 info preinstall app-kit@0.0.0
+8 warn package.json express-namespace@0.1.1 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping grunt@~0.4.2 /Users/user/emberworkspace/emberkit/sample-app
+11 verbose already installed skipping bower@~1.2.7 /Users/user/emberworkspace/emberkit/sample-app
+12 verbose already installed skipping grunt-cli@~0.1.9 /Users/user/emberworkspace/emberkit/sample-app
+13 verbose cache add [ 'load-grunt-config@git://github.com/Pradeek/load-grunt-config.git',
+13 verbose cache add   null ]
+14 verbose cache add name=undefined spec="load-grunt-config@git://github.com/Pradeek/load-grunt-config.git" args=["load-grunt-config@git://github.com/Pradeek/load-grunt-config.git",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'load-grunt-config@git://github.com/Pradeek/load-grunt-config.git',
+15 verbose parsed url   path: 'load-grunt-config@git://github.com/Pradeek/load-grunt-config.git',
+15 verbose parsed url   href: 'load-grunt-config@git://github.com/Pradeek/load-grunt-config.git' }
+16 verbose cache add name="load-grunt-config" spec="git://github.com/Pradeek/load-grunt-config.git" args=["load-grunt-config","git://github.com/Pradeek/load-grunt-config.git"]
+17 verbose parsed url { protocol: 'git:',
+17 verbose parsed url   slashes: true,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: 'github.com',
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: 'github.com',
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '/Pradeek/load-grunt-config.git',
+17 verbose parsed url   path: '/Pradeek/load-grunt-config.git',
+17 verbose parsed url   href: 'git://github.com/Pradeek/load-grunt-config.git' }
+18 verbose already installed skipping grunt-contrib-watch@~0.5.3 /Users/user/emberworkspace/emberkit/sample-app
+19 verbose already installed skipping grunt-contrib-copy@~0.4.1 /Users/user/emberworkspace/emberkit/sample-app
+20 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/user/emberworkspace/emberkit/sample-app
+21 verbose already installed skipping grunt-contrib-clean@~0.4.1 /Users/user/emberworkspace/emberkit/sample-app
+22 verbose already installed skipping grunt-contrib-jshint@~0.7.2 /Users/user/emberworkspace/emberkit/sample-app
+23 verbose already installed skipping grunt-contrib-uglify@~0.2.2 /Users/user/emberworkspace/emberkit/sample-app
+24 silly lockFile f49c10b2-om-Pradeek-load-grunt-config-git git://github.com/Pradeek/load-grunt-config.git
+25 verbose lock git://github.com/Pradeek/load-grunt-config.git /Users/user/.npm/f49c10b2-om-Pradeek-load-grunt-config-git.lock
+26 verbose already installed skipping grunt-contrib-cssmin@~0.6.1 /Users/user/emberworkspace/emberkit/sample-app
+27 verbose already installed skipping grunt-preprocess@~3.0.1 /Users/user/emberworkspace/emberkit/sample-app
+28 verbose addRemoteGit [ 'git://github.com/Pradeek/load-grunt-config.git', 'master' ]
+29 verbose already installed skipping grunt-es6-module-transpiler@~0.5.1 /Users/user/emberworkspace/emberkit/sample-app
+30 verbose already installed skipping grunt-usemin@~0.1.12 /Users/user/emberworkspace/emberkit/sample-app
+31 verbose already installed skipping grunt-concat-sourcemap@~0.3.0 /Users/user/emberworkspace/emberkit/sample-app
+32 verbose already installed skipping grunt-rev@~0.1.0 /Users/user/emberworkspace/emberkit/sample-app
+33 verbose already installed skipping grunt-concurrent@~0.3.1 /Users/user/emberworkspace/emberkit/sample-app
+34 verbose already installed skipping grunt-ember-templates@~0.4.18 /Users/user/emberworkspace/emberkit/sample-app
+35 verbose already installed skipping grunt-karma@~0.5 /Users/user/emberworkspace/emberkit/sample-app
+36 verbose already installed skipping karma@~0.9.4 /Users/user/emberworkspace/emberkit/sample-app
+37 verbose already installed skipping karma-qunit@~0.0.3 /Users/user/emberworkspace/emberkit/sample-app
+38 verbose already installed skipping karma-coverage@~0.0.3 /Users/user/emberworkspace/emberkit/sample-app
+39 verbose already installed skipping karma-phantomjs-launcher@~0.0.2 /Users/user/emberworkspace/emberkit/sample-app
+40 verbose already installed skipping express-namespace@~0.1.1 /Users/user/emberworkspace/emberkit/sample-app
+41 verbose already installed skipping request@~2.27.0 /Users/user/emberworkspace/emberkit/sample-app
+42 verbose already installed skipping express@~3.4.2 /Users/user/emberworkspace/emberkit/sample-app
+43 verbose already installed skipping lockfile@~>0.3.0 /Users/user/emberworkspace/emberkit/sample-app
+44 verbose git remote.origin.url git://github.com/Pradeek/load-grunt-config.git
+45 verbose git fetch -a origin (git://github.com/Pradeek/load-grunt-config.git)
+46 verbose git rev-list -n1 master d7dabe0caeefe06a88a288a48af501221c00be9d
+47 verbose resolved git url git://github.com/Pradeek/load-grunt-config.git#d7dabe0caeefe06a88a288a48af501221c00be9d
+48 verbose tar unpack /var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/tmp.tgz
+49 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+50 verbose lock tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package /Users/user/.npm/71c061aa-88379-0-9194375893566757-package.lock
+51 silly lockFile 4f93cc54-88379-0-9194375893566757-tmp-tgz tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/tmp.tgz
+52 verbose lock tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/tmp.tgz /Users/user/.npm/4f93cc54-88379-0-9194375893566757-tmp-tgz.lock
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry
+55 silly gunzTarPerm modified mode [ '', 509, 493 ]
+56 silly gunzTarPerm extractEntry .gitignore
+57 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+58 silly gunzTarPerm extractEntry Gruntfile.js
+59 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry History.md
+61 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+62 silly gunzTarPerm extractEntry LICENSE
+63 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+66 silly gunzTarPerm extractEntry custom/
+67 silly gunzTarPerm modified mode [ 'custom/', 509, 493 ]
+68 silly gunzTarPerm extractEntry custom/simplemocha.js
+69 silly gunzTarPerm modified mode [ 'custom/simplemocha.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry grunt/
+71 silly gunzTarPerm modified mode [ 'grunt/', 509, 493 ]
+72 silly gunzTarPerm extractEntry grunt/aliases.yaml
+73 silly gunzTarPerm modified mode [ 'grunt/aliases.yaml', 436, 420 ]
+74 silly gunzTarPerm extractEntry grunt/coffee.coffee
+75 silly gunzTarPerm modified mode [ 'grunt/coffee.coffee', 436, 420 ]
+76 silly gunzTarPerm extractEntry grunt/gh-pages.yaml
+77 silly gunzTarPerm modified mode [ 'grunt/gh-pages.yaml', 436, 420 ]
+78 silly gunzTarPerm extractEntry grunt/ghpage.yaml
+79 silly gunzTarPerm modified mode [ 'grunt/ghpage.yaml', 436, 420 ]
+80 silly gunzTarPerm extractEntry grunt/jshint.js
+81 silly gunzTarPerm modified mode [ 'grunt/jshint.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry grunt/notify.yaml
+83 silly gunzTarPerm modified mode [ 'grunt/notify.yaml', 436, 420 ]
+84 silly gunzTarPerm extractEntry grunt/simplemocha.js
+85 silly gunzTarPerm modified mode [ 'grunt/simplemocha.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry grunt/watch.js
+87 silly gunzTarPerm modified mode [ 'grunt/watch.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry lib/
+89 silly gunzTarPerm modified mode [ 'lib/', 509, 493 ]
+90 silly gunzTarPerm extractEntry lib/load-config.js
+91 silly gunzTarPerm modified mode [ 'lib/load-config.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+94 silly gunzTarPerm extractEntry test/
+95 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+96 silly gunzTarPerm extractEntry test/load-config.test.js
+97 silly gunzTarPerm modified mode [ 'test/load-config.test.js', 436, 420 ]
+98 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+99 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+100 silly lockFile 4f93cc54-88379-0-9194375893566757-tmp-tgz tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/tmp.tgz
+101 silly lockFile 4f93cc54-88379-0-9194375893566757-tmp-tgz tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/tmp.tgz
+102 verbose tar pack [ '/Users/user/.npm/load-grunt-config/0.7.0/package.tgz',
+102 verbose tar pack   '/var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package' ]
+103 verbose tarball /Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+104 verbose folder /var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+105 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+106 verbose lock tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package /Users/user/.npm/71c061aa-88379-0-9194375893566757-package.lock
+107 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+108 verbose lock tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz /Users/user/.npm/aa9dffcc-d-grunt-config-0-7-0-package-tgz.lock
+109 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+110 silly lockFile 71c061aa-88379-0-9194375893566757-package tar:///var/folders/1f/tywslt6n1nd_0_mghnrtkq3c0000gq/T/npm-2485-Df4tSnvd/1386729888379-0.9194375893566757/package
+111 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+112 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+113 silly lockFile 8f6ae598--load-grunt-config-0-7-0-package /Users/user/.npm/load-grunt-config/0.7.0/package
+114 verbose lock /Users/user/.npm/load-grunt-config/0.7.0/package /Users/user/.npm/8f6ae598--load-grunt-config-0-7-0-package.lock
+115 silly lockFile 8f6ae598--load-grunt-config-0-7-0-package /Users/user/.npm/load-grunt-config/0.7.0/package
+116 silly lockFile 8f6ae598--load-grunt-config-0-7-0-package /Users/user/.npm/load-grunt-config/0.7.0/package
+117 verbose tar unpack /Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+118 silly lockFile 5ecfb8aa--load-grunt-config-0-7-0-package tar:///Users/user/.npm/load-grunt-config/0.7.0/package
+119 verbose lock tar:///Users/user/.npm/load-grunt-config/0.7.0/package /Users/user/.npm/5ecfb8aa--load-grunt-config-0-7-0-package.lock
+120 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+121 verbose lock tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz /Users/user/.npm/aa9dffcc-d-grunt-config-0-7-0-package-tgz.lock
+122 silly gunzTarPerm modes [ '755', '644' ]
+123 silly gunzTarPerm extractEntry package.json
+124 silly gunzTarPerm extractEntry .npmignore
+125 silly gunzTarPerm extractEntry README.md
+126 silly gunzTarPerm extractEntry LICENSE
+127 silly gunzTarPerm extractEntry Gruntfile.js
+128 silly gunzTarPerm extractEntry History.md
+129 silly gunzTarPerm extractEntry custom/simplemocha.js
+130 silly gunzTarPerm extractEntry grunt/jshint.js
+131 silly gunzTarPerm extractEntry grunt/simplemocha.js
+132 silly gunzTarPerm extractEntry grunt/watch.js
+133 silly gunzTarPerm extractEntry grunt/aliases.yaml
+134 silly gunzTarPerm extractEntry grunt/coffee.coffee
+135 silly gunzTarPerm extractEntry grunt/gh-pages.yaml
+136 silly gunzTarPerm extractEntry grunt/ghpage.yaml
+137 silly gunzTarPerm extractEntry grunt/notify.yaml
+138 silly gunzTarPerm extractEntry lib/load-config.js
+139 silly gunzTarPerm extractEntry test/load-config.test.js
+140 silly lockFile 5ecfb8aa--load-grunt-config-0-7-0-package tar:///Users/user/.npm/load-grunt-config/0.7.0/package
+141 silly lockFile 5ecfb8aa--load-grunt-config-0-7-0-package tar:///Users/user/.npm/load-grunt-config/0.7.0/package
+142 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+143 silly lockFile aa9dffcc-d-grunt-config-0-7-0-package-tgz tar:///Users/user/.npm/load-grunt-config/0.7.0/package.tgz
+144 verbose chmod /Users/user/.npm/load-grunt-config/0.7.0/package.tgz 644
+145 verbose chown /Users/user/.npm/load-grunt-config/0.7.0/package.tgz [ 503, 20 ]
+146 silly lockFile f49c10b2-om-Pradeek-load-grunt-config-git git://github.com/Pradeek/load-grunt-config.git
+147 silly lockFile f49c10b2-om-Pradeek-load-grunt-config-git git://github.com/Pradeek/load-grunt-config.git
+148 info already installed load-grunt-config@0.7.0
+149 silly resolved []
+150 info build /Users/user/emberworkspace/emberkit/sample-app
+151 verbose linkStuff [ false, false, false, '/Users/user/emberworkspace/emberkit' ]
+152 info linkStuff app-kit@0.0.0
+153 verbose linkBins app-kit@0.0.0
+154 verbose linkMans app-kit@0.0.0
+155 verbose rebuildBundles app-kit@0.0.0
+156 verbose rebuildBundles [ '.bin',
+156 verbose rebuildBundles   'bower',
+156 verbose rebuildBundles   'ember-template-compiler',
+156 verbose rebuildBundles   'express',
+156 verbose rebuildBundles   'express-namespace',
+156 verbose rebuildBundles   'grunt',
+156 verbose rebuildBundles   'grunt-cli',
+156 verbose rebuildBundles   'grunt-concat-sourcemap',
+156 verbose rebuildBundles   'grunt-concurrent',
+156 verbose rebuildBundles   'grunt-contrib-clean',
+156 verbose rebuildBundles   'grunt-contrib-concat',
+156 verbose rebuildBundles   'grunt-contrib-copy',
+156 verbose rebuildBundles   'grunt-contrib-cssmin',
+156 verbose rebuildBundles   'grunt-contrib-jshint',
+156 verbose rebuildBundles   'grunt-contrib-uglify',
+156 verbose rebuildBundles   'grunt-contrib-watch',
+156 verbose rebuildBundles   'grunt-ember-templates',
+156 verbose rebuildBundles   'grunt-es6-module-transpiler',
+156 verbose rebuildBundles   'grunt-karma',
+156 verbose rebuildBundles   'grunt-preprocess',
+156 verbose rebuildBundles   'grunt-rev',
+156 verbose rebuildBundles   'grunt-usemin',
+156 verbose rebuildBundles   'handlebars',
+156 verbose rebuildBundles   'karma',
+156 verbose rebuildBundles   'karma-chrome-launcher',
+156 verbose rebuildBundles   'karma-coffee-preprocessor',
+156 verbose rebuildBundles   'karma-coverage',
+156 verbose rebuildBundles   'karma-firefox-launcher',
+156 verbose rebuildBundles   'karma-html2js-preprocessor',
+156 verbose rebuildBundles   'karma-jasmine',
+156 verbose rebuildBundles   'karma-phantomjs-launcher',
+156 verbose rebuildBundles   'karma-qunit',
+156 verbose rebuildBundles   'karma-requirejs',
+156 verbose rebuildBundles   'karma-script-launcher',
+156 verbose rebuildBundles   'load-grunt-config',
+156 verbose rebuildBundles   'lockfile',
+156 verbose rebuildBundles   'request',
+156 verbose rebuildBundles   'requirejs' ]
+157 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/ember-template-compiler
+158 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/ember-template-compiler
+159 info preinstall ember-template-compiler@1.3.0-beta.2
+160 verbose linkStuff [ false,
+160 verbose linkStuff   false,
+160 verbose linkStuff   false,
+160 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+161 info linkStuff ember-template-compiler@1.3.0-beta.2
+162 verbose linkBins ember-template-compiler@1.3.0-beta.2
+163 verbose link bins [ { 'ember-template-compiler': './bin/compiler' },
+163 verbose link bins   '/Users/user/emberworkspace/emberkit/sample-app/node_modules/.bin',
+163 verbose link bins   false ]
+164 verbose linkMans ember-template-compiler@1.3.0-beta.2
+165 verbose rebuildBundles ember-template-compiler@1.3.0-beta.2
+166 info install ember-template-compiler@1.3.0-beta.2
+167 info postinstall ember-template-compiler@1.3.0-beta.2
+168 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/handlebars
+169 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/handlebars
+170 info preinstall handlebars@1.1.2
+171 verbose linkStuff [ false,
+171 verbose linkStuff   false,
+171 verbose linkStuff   false,
+171 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+172 info linkStuff handlebars@1.1.2
+173 verbose linkBins handlebars@1.1.2
+174 verbose link bins [ { handlebars: 'bin/handlebars' },
+174 verbose link bins   '/Users/user/emberworkspace/emberkit/sample-app/node_modules/.bin',
+174 verbose link bins   false ]
+175 verbose linkMans handlebars@1.1.2
+176 verbose rebuildBundles handlebars@1.1.2
+177 verbose rebuildBundles [ '.bin', 'optimist', 'uglify-js' ]
+178 info install handlebars@1.1.2
+179 info postinstall handlebars@1.1.2
+180 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-chrome-launcher
+181 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-chrome-launcher
+182 info preinstall karma-chrome-launcher@0.1.1
+183 verbose linkStuff [ false,
+183 verbose linkStuff   false,
+183 verbose linkStuff   false,
+183 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+184 info linkStuff karma-chrome-launcher@0.1.1
+185 verbose linkBins karma-chrome-launcher@0.1.1
+186 verbose linkMans karma-chrome-launcher@0.1.1
+187 verbose rebuildBundles karma-chrome-launcher@0.1.1
+188 info install karma-chrome-launcher@0.1.1
+189 info postinstall karma-chrome-launcher@0.1.1
+190 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-coffee-preprocessor
+191 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-coffee-preprocessor
+192 info preinstall karma-coffee-preprocessor@0.1.1
+193 verbose linkStuff [ false,
+193 verbose linkStuff   false,
+193 verbose linkStuff   false,
+193 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+194 info linkStuff karma-coffee-preprocessor@0.1.1
+195 verbose linkBins karma-coffee-preprocessor@0.1.1
+196 verbose linkMans karma-coffee-preprocessor@0.1.1
+197 verbose rebuildBundles karma-coffee-preprocessor@0.1.1
+198 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+199 info install karma-coffee-preprocessor@0.1.1
+200 info postinstall karma-coffee-preprocessor@0.1.1
+201 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-firefox-launcher
+202 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-firefox-launcher
+203 info preinstall karma-firefox-launcher@0.1.2
+204 verbose linkStuff [ false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+205 info linkStuff karma-firefox-launcher@0.1.2
+206 verbose linkBins karma-firefox-launcher@0.1.2
+207 verbose linkMans karma-firefox-launcher@0.1.2
+208 verbose rebuildBundles karma-firefox-launcher@0.1.2
+209 info install karma-firefox-launcher@0.1.2
+210 info postinstall karma-firefox-launcher@0.1.2
+211 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-html2js-preprocessor
+212 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-html2js-preprocessor
+213 info preinstall karma-html2js-preprocessor@0.1.0
+214 verbose linkStuff [ false,
+214 verbose linkStuff   false,
+214 verbose linkStuff   false,
+214 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+215 info linkStuff karma-html2js-preprocessor@0.1.0
+216 verbose linkBins karma-html2js-preprocessor@0.1.0
+217 verbose linkMans karma-html2js-preprocessor@0.1.0
+218 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+219 info install karma-html2js-preprocessor@0.1.0
+220 info postinstall karma-html2js-preprocessor@0.1.0
+221 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-jasmine
+222 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-jasmine
+223 info preinstall karma-jasmine@0.1.4
+224 verbose linkStuff [ false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+225 info linkStuff karma-jasmine@0.1.4
+226 verbose linkBins karma-jasmine@0.1.4
+227 verbose linkMans karma-jasmine@0.1.4
+228 verbose rebuildBundles karma-jasmine@0.1.4
+229 info install karma-jasmine@0.1.4
+230 info postinstall karma-jasmine@0.1.4
+231 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-requirejs
+232 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-requirejs
+233 info preinstall karma-requirejs@0.2.0
+234 verbose linkStuff [ false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+235 info linkStuff karma-requirejs@0.2.0
+236 verbose linkBins karma-requirejs@0.2.0
+237 verbose linkMans karma-requirejs@0.2.0
+238 verbose rebuildBundles karma-requirejs@0.2.0
+239 info install karma-requirejs@0.2.0
+240 info postinstall karma-requirejs@0.2.0
+241 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-script-launcher
+242 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/karma-script-launcher
+243 info preinstall karma-script-launcher@0.1.0
+244 verbose linkStuff [ false,
+244 verbose linkStuff   false,
+244 verbose linkStuff   false,
+244 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+245 info linkStuff karma-script-launcher@0.1.0
+246 verbose linkBins karma-script-launcher@0.1.0
+247 verbose linkMans karma-script-launcher@0.1.0
+248 verbose rebuildBundles karma-script-launcher@0.1.0
+249 info install karma-script-launcher@0.1.0
+250 info postinstall karma-script-launcher@0.1.0
+251 verbose rebuild bundle /Users/user/emberworkspace/emberkit/sample-app/node_modules/requirejs
+252 info build /Users/user/emberworkspace/emberkit/sample-app/node_modules/requirejs
+253 info preinstall requirejs@2.1.9
+254 verbose linkStuff [ false,
+254 verbose linkStuff   false,
+254 verbose linkStuff   false,
+254 verbose linkStuff   '/Users/user/emberworkspace/emberkit/sample-app/node_modules' ]
+255 info linkStuff requirejs@2.1.9
+256 verbose linkBins requirejs@2.1.9
+257 verbose link bins [ { 'r.js': './bin/r.js' },
+257 verbose link bins   '/Users/user/emberworkspace/emberkit/sample-app/node_modules/.bin',
+257 verbose link bins   false ]
+258 verbose linkMans requirejs@2.1.9
+259 verbose rebuildBundles requirejs@2.1.9
+260 info install requirejs@2.1.9
+261 info postinstall requirejs@2.1.9
+262 info install app-kit@0.0.0
+263 info postinstall app-kit@0.0.0
+264 verbose unsafe-perm in lifecycle true
+265 info app-kit@0.0.0 Failed to exec postinstall script
+266 error app-kit@0.0.0 postinstall: `bower install; grunt dist`
+266 error Exit status 3
+267 error Failed at the app-kit@0.0.0 postinstall script.
+267 error This is most likely a problem with the app-kit package,
+267 error not with npm itself.
+267 error Tell the author that this fails on your system:
+267 error     bower install; grunt dist
+267 error You can get their info via:
+267 error     npm owner ls app-kit
+267 error There is likely additional logging output above.
+268 error System Darwin 11.4.2
+269 error command "node" "/usr/local/bin/npm" "install"
+270 error cwd /Users/user/emberworkspace/emberkit/sample-app
+271 error node -v v0.10.22
+272 error npm -v 1.3.14
+273 error code ELIFECYCLE
+274 verbose exit [ 1, true ]
